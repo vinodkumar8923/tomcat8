@@ -6,7 +6,7 @@ MAINTAINER "mahinder@gmail.com"
 
 RUN yum install java-devel net-tool netstat vim  -y
 
-COPY  dockerfiletomcat  /root/
+COPY Dockerfile  /root/
 
 ADD apache-tomcat-8.5.89.tar.gz  /opt
 
