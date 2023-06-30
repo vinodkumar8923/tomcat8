@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: tgsvc
+  name: cdts
 spec:
   type: NodePort
   selector:
