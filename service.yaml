@@ -4,6 +4,9 @@ metadata:
   name: tgsvc
 spec:
   type: NodePort
+  selector:
+    matchLabels:
+     app: tomcat
   ports:
     - protocol: TCP
       port: 8080
