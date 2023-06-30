@@ -5,8 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    matchLabels:
-     app: tomcat
+    app: tomcat
   ports:
     - protocol: TCP
       port: 8080
