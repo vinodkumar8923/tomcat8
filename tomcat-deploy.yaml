@@ -16,7 +16,7 @@ spec:
        - name: mydockerhub
      containers:
        - name: tomcat
-         image:  cdtsbikaner/newtomcat:BUILD_NUMBER
+         image:  cdtsbikaner/tgtomcatapp1:v1
          ports:
           - containerPort: 8080
       
