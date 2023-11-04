@@ -14,10 +14,10 @@ spec:
        app: tomcat
     spec:
      imagePullSecrets:
-       - name: dockerpasswd1
+       - name: dhpasswd
      containers:
        - name: tomcat
-         image:  cdtsbikaner/newdata:v1
+         image:  cdtsbikaner/testproject:BUILD_NUMBER
          ports:
           - containerPort: 8080
       
