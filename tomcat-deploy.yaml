@@ -16,7 +16,7 @@ spec:
        - name: dockerpasswd1
      containers:
        - name: tomcat
-         image:  cdtsbikaner/newdata:v3
+         image:  cdtsbikaner/newdata:BUILD_NUMBER
          ports:
           - containerPort: 8080
       
