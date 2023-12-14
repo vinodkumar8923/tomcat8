@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp1
-  namespace: tgindia
+  namespace: grras
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
      app: tomcat
