@@ -14,7 +14,7 @@ spec:
        app: tomcat
     spec:
      imagePullSecrets:
-       - name: dhpasswd
+       - name: dockerpasswd1
      containers:
        - name: tomcat
          image:  cdtsbikaner/testproject:BUILD_NUMBER
