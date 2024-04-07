@@ -8,7 +8,7 @@ RUN yum install java-devel net-tool netstat vim bind-utils -y
 
 COPY Dockerfile  /root/
 
-COPY aa.txt /mnt/
+#COPY aa.txt /mnt/
 
 ADD apache-tomcat-8.5.89.tar.gz  /opt
 
