@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp1
-  namespace: grras
+  namespace: cdts
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
      app: tomcat
@@ -14,10 +14,10 @@ spec:
        app: tomcat
     spec:
      imagePullSecrets:
-       - name: mydockerpasswd
+       - name: tgpasswd
      containers:
        - name: tomcat
-         image:  cdtsbikaner/decdevtools2023-BUILD_NUMBER
+         image:  cdtsbikaner/devopstg13jan2024-BUILD_NUMBER
          ports:
           - containerPort: 8080
       
