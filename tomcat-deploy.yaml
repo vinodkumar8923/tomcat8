@@ -17,7 +17,7 @@ spec:
        - name: tgpasswd
      containers:
        - name: tomcat
-         image:  v1n0d95/dockerproject:Apache2:BUILD_NUMBER
+         image: v1n0d95/dockerproject:BUILD_NUMBER
          ports:
           - containerPort: 8080
       
