@@ -17,7 +17,7 @@ spec:
        - name: tgpasswd
      containers:
        - name: tomcat
-         image:  vinodkumar8923/tomcat8:BUILD_NUMBER
+         image:  cdtsbikaner/devopstg13jan2024:BUILD_NUMBER
          ports:
           - containerPort: 8080
       
